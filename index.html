@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdiaziz Mohamed Abdi — Drilling Operations Engineer</title>
+<meta name="description" content="Drilling operations engineer. MSc Petroleum &amp; Natural Gas Engineering (Honors). Spud-to-TD field experience, zero recordable incidents, real-time wellbore monitoring and downhole tool design.">
+<meta name="author" content="Abdiaziz Mohamed Abdi">
+<meta name="theme-color" content="#08090A">
+<link rel="canonical" href="https://abdiaziz-abd.github.io/">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Abdiaziz Mohamed Abdi — Drilling Operations Engineer">
+<meta property="og:description" content="Spud to TD with nothing left on the report. Drilling operations, mud systems, wellbore integrity and downhole tool design.">
+<meta property="og:url" content="https://abdiaziz-abd.github.io/">
+<meta property="og:image" content="https://abdiaziz-abd.github.io/me.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2308090A'/%3E%3Cpath d='M6 24 L16 7 L26 24 M10 19 h12' stroke='%23E8871E' stroke-width='2.4' fill='none' stroke-linecap='square'/%3E%3C/svg%3E">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Abdiaziz Mohamed Abdi",
+  "jobTitle": "Drilling Operations Engineer",
+  "image": "https://abdiaziz-abd.github.io/me.jpg",
+  "email": "mailto:anwernuur@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Dammam", "addressCountry": "SA" },
+  "knowsLanguage": ["Somali", "English", "Arabic"],
+  "sameAs": ["https://www.linkedin.com/in/abdiaziz-petroleum/", "https://abdiaziz-abd.github.io/Downhole-Sensor/", "https://abdiaziz-abd.github.io/hydraulic-fracturing-thesis/", "https://abdiaziz-abd.github.io/Plunger-Pumps/"],
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Cyprus International University" },
+  "hasCredential": [
+    { "@type": "EducationalOccupationalCredential", "name": "OPITO BOSIET with EBS" },
+    { "@type": "EducationalOccupationalCredential", "name": "OPITO Basic H2S (9014)" },
+    { "@type": "EducationalOccupationalCredential", "name": "NEBOSH Certification" }
+  ]
+}
+</script>
+
+<style>
+/* ============================================================ tokens */
+:root{
+  --bg:#08090A;
+  --bg-2:#0C0E10;
+  --surf:#111519;
+  --surf-2:#171C21;
+  --line:rgba(255,255,255,.075);
+  --line-2:rgba(255,255,255,.14);
+  --ink:#EDEFF1;
+  --ink-2:#98A2A9;
+  --ink-3:#5D666D;
+  --amber:#E8871E;
+  --amber-dim:rgba(232,135,30,.14);
+  --green:#3FB48C;
+  --green-dim:rgba(63,180,140,.13);
+
+  --display:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
+
+  --gut:clamp(20px,5vw,72px);
+  --maxw:1440px;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--display);
+  font-size:16px;
+  line-height:1.62;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--amber);color:#0B0B0B}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:2px}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding-inline:var(--gut)}
+main > section{scroll-margin-top:74px}
+
+h1,h2,h3{
+  font-family:var(--display);
+  font-weight:600;
+  letter-spacing:-.035em;
+  line-height:.99;
+  text-wrap:balance;
+  margin:0;
+}
+p{margin:0}
+
+.mono{
+  font-family:var(--data);
+  font-size:10.5px;
+  font-weight:500;
+  letter-spacing:.19em;
+  text-transform:uppercase;
+  color:var(--ink-3);
+}
+.num{font-family:var(--data);font-variant-numeric:tabular-nums}
+
+/* ============================================================ loader */
+#loader{
+  position:fixed;inset:0;z-index:999;
+  background:var(--bg);
+  display:grid;place-items:center;
+  transition:opacity .7s var(--ease),visibility .7s;
+}
+#loader.done{opacity:0;visibility:hidden;pointer-events:none}
+.load-in{width:min(280px,60vw);text-align:left}
+.load-mark{width:34px;height:34px;margin-bottom:22px}
+.load-bar{height:1px;background:var(--line-2);position:relative;overflow:hidden;margin:14px 0 10px}
+.load-bar i{position:absolute;inset:0;background:var(--amber);transform:scaleX(0);transform-origin:0 50%;transition:transform .35s linear}
+.load-pct{display:flex;justify-content:space-between}
+
+/* ============================================================ cursor */
+/* outer box is positioned by JS (transform only); the visible ring scales on ::after */
+#cursor{
+  position:fixed;top:0;left:0;width:52px;height:52px;
+  pointer-events:none;z-index:900;
+  mix-blend-mode:difference;
+}
+#cursor::after{
+  content:"";position:absolute;inset:0;border-radius:50%;
+  border:1px solid var(--line-2);
+  transform:scale(.5);
+  transition:transform .3s var(--ease),background .3s,border-color .3s;
+}
+#cursor.hot::after{transform:scale(1);background:var(--ink);border-color:transparent}
+@media (hover:none),(pointer:coarse){#cursor{display:none}}
+
+/* ============================================================ progress */
+#prog{
+  position:fixed;top:0;left:0;height:2px;width:100%;
+  background:linear-gradient(90deg,var(--amber),var(--green));
+  transform:scaleX(0);transform-origin:0 50%;
+  z-index:120;
+}
+
+/* ============================================================ nav */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:110;
+  transition:background .4s var(--ease),border-color .4s,backdrop-filter .4s;
+  border-bottom:1px solid transparent;
+}
+header.stuck{
+  background:rgba(8,9,10,.72);
+  backdrop-filter:blur(18px) saturate(1.3);
+  -webkit-backdrop-filter:blur(18px) saturate(1.3);
+  border-bottom-color:var(--line);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+.brand{display:flex;align-items:center;gap:13px}
+.brand svg{width:30px;height:30px;flex:none}
+.brand .bt{display:block;line-height:1.35}
+.brand .bt b{display:block;font-family:var(--data);font-size:11px;font-weight:500;letter-spacing:.17em;text-transform:uppercase;color:var(--ink)}
+.brand .bt span{display:block;font-family:var(--data);font-size:10px;letter-spacing:.19em;text-transform:uppercase;color:var(--ink-3)}
+.navlinks{display:flex;gap:34px;align-items:center}
+.navlinks a{
+  font-family:var(--data);font-size:10.5px;font-weight:500;
+  letter-spacing:.19em;text-transform:uppercase;color:var(--ink-2);
+  position:relative;padding:6px 0;transition:color .3s;
+}
+.navlinks a::after{
+  content:"";position:absolute;left:0;bottom:0;height:1px;width:100%;
+  background:var(--amber);transform:scaleX(0);transform-origin:100% 50%;
+  transition:transform .45s var(--ease);
+}
+.navlinks a:hover{color:var(--ink)}
+.navlinks a:hover::after{transform:scaleX(1);transform-origin:0 50%}
+.navlinks a.on{color:var(--ink)}
+.navlinks a.on::after{transform:scaleX(1);transform-origin:0 50%;background:var(--ink-3)}
+@media(max-width:760px){.navlinks{gap:18px}.navlinks a{font-size:9.5px;letter-spacing:.13em}.brand .bt span{display:none}}
+@media(max-width:520px){.navlinks a:nth-child(2){display:none}}
+
+/* ============================================================ hero */
+#hero{padding-top:clamp(122px,14vw,168px);padding-bottom:clamp(48px,7vw,92px)}
+.hero-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.55fr) minmax(0,.95fr);
+  gap:clamp(32px,6vw,90px);
+  align-items:start;
+}
+@media(max-width:940px){.hero-grid{grid-template-columns:1fr;gap:44px}}
+
+.avatar{
+  width:clamp(124px,12.5vw,172px);aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle at 50% 34%,#2B3238 0%,#14181B 58%,#0B0D0F 100%);
+  border:1px solid var(--line);
+  display:grid;place-items:center;overflow:hidden;position:relative;
+  box-shadow:0 30px 70px -30px rgba(0,0,0,.9);
+}
+.avatar svg{width:74%;height:74%;display:none}
+.avatar.noimg svg{display:block}
+.avatar.noimg img{display:none}
+/* portrait is 768x1360, head spanning source y230-y790. cover fits the width, so
+   the visible window is 56% of the frame; a 30% y-anchor lands the head at 7%-80%
+   of the circle — full face, a little air above, collar below */
+.avatar img{
+  position:absolute;inset:0;          /* out of the grid, so cover gets a true square box */
+  width:100%;height:100%;object-fit:cover;
+  object-position:50% 30%;
+  display:block;
+}
+.avatar::after{
+  content:"";position:absolute;inset:0;border-radius:50%;pointer-events:none;
+  background:linear-gradient(to top,rgba(8,9,10,.55),transparent 42%);
+}
+
+.pill{
+  display:inline-flex;align-items:center;gap:9px;
+  margin-top:clamp(18px,2.6vw,28px);
+  padding:8px 15px 8px 12px;border-radius:100px;
+  border:1px solid var(--line-2);background:rgba(255,255,255,.028);
+  font-family:var(--data);font-size:10px;font-weight:500;letter-spacing:.17em;
+  text-transform:uppercase;color:var(--ink);
+}
+.pill i{
+  width:7px;height:7px;border-radius:50%;background:var(--green);flex:none;
+  box-shadow:0 0 0 0 rgba(63,180,140,.55);animation:ping 2.4s var(--ease) infinite;
+}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(63,180,140,.5)}70%{box-shadow:0 0 0 9px rgba(63,180,140,0)}100%{box-shadow:0 0 0 0 rgba(63,180,140,0)}}
+
+h1.name{
+  margin-top:clamp(20px,3vw,34px);
+  font-size:clamp(46px,8.6vw,124px);
+  font-weight:600;
+  letter-spacing:-.045em;
+  line-height:.92;
+}
+h1.name span{display:block}
+h1.name .l2{color:var(--ink-2)}
+.hero-sub{
+  margin-top:clamp(18px,2.4vw,30px);
+  font-size:clamp(15px,1.5vw,21px);
+  color:var(--ink-2);font-weight:300;letter-spacing:-.01em;
+}
+
+.pres{padding-top:clamp(0px,4.4vw,58px)}
+.pres p{
+  margin-top:16px;
+  font-size:clamp(14.5px,1.15vw,16.5px);
+  line-height:1.72;color:var(--ink-2);font-weight:300;
+}
+.pres p b{color:var(--ink);font-weight:500}
+
+.stats{
+  display:flex;gap:clamp(22px,3.4vw,46px);align-items:flex-start;
+  margin-top:clamp(30px,4vw,54px);
+}
+.stat{position:relative;padding-right:clamp(22px,3.4vw,46px)}
+.stat + .stat{border-left:1px solid var(--line);padding-left:clamp(22px,3.4vw,46px)}
+.stat b{
+  display:block;font-family:var(--display);
+  font-size:clamp(34px,4.2vw,54px);font-weight:500;letter-spacing:-.05em;line-height:1;
+  font-variant-numeric:tabular-nums;
+}
+.stat span{display:block;margin-top:10px;font-family:var(--data);font-size:9.5px;letter-spacing:.19em;text-transform:uppercase;color:var(--ink-3);line-height:1.7}
+
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(34px,4.6vw,56px)}
+.btn{
+  display:inline-flex;align-items:center;gap:11px;
+  padding:14px 22px;border-radius:100px;
+  border:1px solid var(--line-2);
+  font-family:var(--data);font-size:10.5px;font-weight:500;letter-spacing:.17em;text-transform:uppercase;
+  color:var(--ink);background:transparent;cursor:pointer;
+  transition:background .35s var(--ease),color .35s,border-color .35s,transform .35s var(--ease);
+}
+.btn:hover{background:var(--ink);color:#0B0B0B;border-color:var(--ink);transform:translateY(-2px)}
+.btn.solid{background:var(--amber);border-color:var(--amber);color:#0B0B0B}
+.btn.solid:hover{background:#F79A32;border-color:#F79A32;color:#0B0B0B}
+.btn svg{width:13px;height:13px}
+
+/* ============================================================ strip */
+.strip{
+  margin-top:clamp(40px,6vw,84px);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:16px 0;
+}
+.marq{
+  display:flex;flex-wrap:wrap;gap:14px clamp(20px,3vw,40px);
+  max-width:var(--maxw);margin:0 auto;padding-inline:var(--gut);
+}
+.marq span{
+  font-family:var(--data);font-size:10.5px;letter-spacing:.19em;text-transform:uppercase;
+  color:var(--ink-3);white-space:nowrap;display:inline-flex;align-items:center;gap:clamp(20px,3vw,40px);
+}
+.marq span:not(:last-child)::after{content:"";width:4px;height:4px;border-radius:50%;background:var(--amber);opacity:.55}
+
+/* ============================================================ section head */
+.shead{
+  display:grid;grid-template-columns:auto 1fr;gap:clamp(20px,4vw,64px);
+  align-items:end;
+  padding-top:clamp(70px,10vw,140px);
+  padding-bottom:clamp(28px,4vw,48px);
+  border-bottom:1px solid var(--line);
+}
+.shead h2{font-size:clamp(30px,4.6vw,62px);font-weight:500;letter-spacing:-.04em}
+.shead .idx{font-family:var(--data);font-size:10.5px;letter-spacing:.2em;color:var(--amber);padding-bottom:10px}
+.shead .say{grid-column:2;max-width:52ch;margin-top:18px;color:var(--ink-2);font-weight:300;font-size:clamp(14.5px,1.15vw,16.5px);line-height:1.72}
+@media(max-width:700px){.shead{grid-template-columns:1fr;gap:12px}.shead .say{grid-column:1}}
+
+/* ============================================================ project cards */
+.cards{display:grid;gap:14px;padding-top:clamp(34px,5vw,56px)}
+.card{
+  position:relative;display:grid;
+  grid-template-columns:minmax(0,300px) minmax(0,1fr);
+  gap:clamp(18px,2.4vw,30px);align-items:center;
+  border:1px solid var(--line);border-radius:18px;
+  background:var(--surf);padding:16px;overflow:hidden;
+  transition:border-color .45s var(--ease),background .45s var(--ease),transform .45s var(--ease);
+}
+.card:hover{border-color:var(--line-2);background:var(--surf-2);transform:translateY(-3px)}
+.card::before{
+  content:"";position:absolute;inset:0;opacity:0;pointer-events:none;
+  background:radial-gradient(460px circle at var(--mx,50%) var(--my,50%),rgba(232,135,30,.10),transparent 62%);
+  transition:opacity .5s;
+}
+.card:hover::before{opacity:1}
+
+/* live scaled preview of the real site — no screenshot asset to go stale */
+.shot{
+  position:relative;aspect-ratio:16/10;border-radius:12px;overflow:hidden;
+  background:var(--bg-2);border:1px solid var(--line);
+}
+.shot iframe{
+  position:absolute;top:0;left:0;
+  width:1280px;height:800px;border:0;
+  transform:scale(.235);transform-origin:0 0;
+  pointer-events:none;
+}
+.shot::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(115deg,rgba(255,255,255,.05),transparent 42%);
+}
+.card:hover .shot{border-color:var(--line-2)}
+
+.card .body{min-width:0;padding-right:6px}
+.card .top{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.card h3{min-width:0;font-size:clamp(17px,1.6vw,21px);font-weight:600;letter-spacing:-.025em;line-height:1.25}
+.card .host{
+  display:inline-flex;align-items:center;gap:7px;flex:none;
+  border:1px solid var(--line-2);border-radius:9px;padding:7px 11px;
+  font-family:var(--data);font-size:11px;color:var(--ink-2);white-space:nowrap;
+  min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;
+  transition:color .35s,border-color .35s;
+}
+.card .host svg{width:12px;height:12px;flex:none}
+.card:hover .host{color:var(--ink);border-color:var(--ink-3)}
+.card .facts{
+  display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-top:13px;
+  font-family:var(--data);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);
+}
+.card .facts i{width:3px;height:3px;border-radius:50%;background:var(--ink-3);opacity:.7;font-style:normal}
+.card p{margin-top:14px;color:var(--ink-2);font-size:14px;font-weight:300;line-height:1.6}
+
+@media(max-width:720px){
+  .card{grid-template-columns:1fr;gap:16px}
+  .card .top{flex-direction:column;align-items:flex-start;gap:10px}
+  .shot iframe{transform:scale(.36)}
+}
+
+/* ============================================================ skills */
+.skills{
+  display:grid;grid-template-columns:1fr 1fr;gap:12px;
+  margin-top:clamp(34px,5vw,56px);
+}
+@media(max-width:640px){.skills{grid-template-columns:1fr}}
+.skill{
+  display:flex;align-items:center;gap:14px;
+  opacity:0;transform:translateY(14px);
+  animation:skillIn .55s cubic-bezier(.16,1,.3,1) forwards;
+  animation-delay:calc(var(--i,0) * .07s);
+  animation-play-state:paused;
+  background:var(--surf);border:1px solid var(--line);
+  border-radius:14px;padding:16px 18px;
+  transition:border-color .3s var(--ease),background .3s var(--ease),transform .3s var(--ease);
+}
+.skill:hover{border-color:var(--line-2);background:var(--surf-2);transform:translateY(-2px)}
+.skill:hover .logo{transform:scale(1.06)}
+.skill .logo{
+  width:40px;height:40px;flex:none;border-radius:10px;
+  display:grid;place-items:center;
+  font-family:var(--data);font-size:13px;font-weight:500;color:#fff;
+  transition:transform .3s var(--ease);
+}
+.skill .meta{flex:1;min-width:0}
+.skill .name{display:block;font-size:14.5px;font-weight:500;letter-spacing:-.01em;line-height:1.3;color:var(--ink)}
+.skill .sub{display:block;margin-top:3px;font-family:var(--data);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+
+@keyframes skillIn{to{opacity:1;transform:none}}
+/* the whole grid is revealed at once, then each card animates on its own delay */
+.skills.go .skill{animation-play-state:running}
+@media (prefers-reduced-motion:reduce){
+  .skill{opacity:1;transform:none;animation:none}
+}
+
+/* ============================================================ record */
+.rec{border-top:1px solid var(--line)}
+.rec-row{
+  display:grid;grid-template-columns:170px minmax(0,1fr) minmax(0,1.05fr);
+  gap:clamp(18px,3vw,48px);
+  padding:clamp(26px,3.4vw,42px) 0;
+  border-bottom:1px solid var(--line);
+  transition:background .5s var(--ease);
+}
+.rec-row:hover{background:rgba(255,255,255,.016)}
+.rec-row .when{font-family:var(--data);font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3);padding-top:6px}
+.rec-row h3{font-size:clamp(18px,1.8vw,24px);font-weight:500;letter-spacing:-.035em}
+.rec-row .org{margin-top:9px;font-family:var(--data);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--amber)}
+.rec-row .role{margin-top:6px;color:var(--ink-2);font-size:14px;font-weight:300}
+.rec-row ul{list-style:none;margin:0;padding:0;display:grid;gap:11px}
+.rec-row li{position:relative;padding-left:19px;color:var(--ink-2);font-size:14px;font-weight:300;line-height:1.62}
+.rec-row li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:1px;background:var(--amber)}
+.rec-row li b{color:var(--ink);font-weight:500}
+@media(max-width:860px){.rec-row{grid-template-columns:1fr;gap:16px}}
+
+/* ============================================================ capabilities */
+.caps{display:grid;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-top:clamp(34px,5vw,56px)}
+.cap{background:var(--bg-2);padding:26px 24px 24px;transition:background .5s var(--ease)}
+.cap:hover{background:var(--surf)}
+.cap h3{font-size:16.5px;font-weight:500;letter-spacing:-.02em}
+.cap p{margin-top:11px;color:var(--ink-2);font-size:13.5px;font-weight:300;line-height:1.65}
+.cap .tag{display:inline-block;margin-top:16px;font-family:var(--data);font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--green);background:var(--green-dim);padding:5px 10px;border-radius:100px}
+
+/* ============================================================ certificates */
+.certs{display:grid;grid-template-columns:repeat(auto-fit,minmax(258px,1fr));gap:16px;margin-top:clamp(34px,5vw,56px)}
+.cert{
+  position:relative;border:1px solid var(--line);border-radius:16px;
+  background:linear-gradient(155deg,var(--surf),var(--bg-2));
+  padding:24px 22px 22px;overflow:hidden;
+  transition:transform .6s var(--ease),border-color .5s;
+}
+.cert::after{
+  content:"";position:absolute;top:-40%;left:-60%;width:60%;height:200%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.055),transparent);
+  transform:skewX(-18deg);transition:left .85s var(--ease);
+}
+.cert:hover{transform:translateY(-5px);border-color:var(--line-2)}
+.cert:hover::after{left:130%}
+.cert .seal{width:36px;height:36px;border-radius:9px;display:grid;place-items:center;border:1px solid var(--line-2);background:rgba(255,255,255,.03)}
+.cert .seal svg{width:17px;height:17px}
+.cert h3{font-size:16px;font-weight:500;letter-spacing:-.02em;margin-top:18px;line-height:1.28}
+.cert .iss{margin-top:9px;color:var(--ink-2);font-size:13.5px;font-weight:300}
+.cert .row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:20px;padding-top:15px;border-top:1px solid var(--line)}
+.cert .st{font-family:var(--data);font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;display:inline-flex;align-items:center;gap:7px}
+.cert .st i{width:5px;height:5px;border-radius:50%;flex:none}
+.st.live{color:var(--green)}.st.live i{background:var(--green)}
+.st.soon{color:var(--amber)}.st.soon i{background:var(--amber)}
+.cert .val{font-family:var(--data);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+
+/* education + language */
+.edu{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:18px}
+.edu-b{border:1px solid var(--line);border-radius:16px;background:var(--bg-2);padding:24px 22px}
+.edu-b h3{font-size:16px;font-weight:500;letter-spacing:-.02em;line-height:1.3}
+.edu-b .sc{margin-top:9px;color:var(--ink-2);font-size:13.5px;font-weight:300}
+.edu-b .hon{display:inline-flex;gap:7px;flex-wrap:wrap;margin-top:15px}
+.edu-b .hon span{font-family:var(--data);font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--amber);border:1px solid var(--amber-dim);background:var(--amber-dim);border-radius:100px;padding:4px 9px}
+.edu-b dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:12px 0}
+.edu-b dt{font-size:14px;color:var(--ink);font-weight:400}
+.edu-b dd{margin:0;text-align:right;font-family:var(--data);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+
+/* ============================================================ contact */
+#contact{padding:clamp(80px,12vw,170px) 0 0}
+.cta h2{font-size:clamp(38px,8vw,110px);font-weight:500;letter-spacing:-.05em;line-height:.94}
+.cta h2 em{font-style:normal;color:var(--ink-3)}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(30px,4vw,50px)}
+.cinfo{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-top:clamp(44px,6vw,76px)}
+.cinfo div{background:var(--bg-2);padding:20px 20px 18px}
+.cinfo b{display:block;margin-top:9px;font-size:15px;font-weight:400;letter-spacing:-.01em}
+.cinfo a:hover{color:var(--amber)}
+
+footer{margin-top:clamp(56px,7vw,96px);border-top:1px solid var(--line);padding:26px 0 34px}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.foot a:hover{color:var(--ink)}
+
+/* ============================================================ reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .95s var(--ease),transform .95s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.rv[data-d="1"]{transition-delay:.08s}
+.rv[data-d="2"]{transition-delay:.16s}
+.rv[data-d="3"]{transition-delay:.24s}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none;transition:none}
+  .pill i{animation:none}
+}
+
+/* ============================================================ print */
+@media print{
+  #loader,#cursor,#prog,header,.strip,.hero-cta,footer .foot a{display:none!important}
+  body{background:#fff;color:#000}
+  .card,.cert,.cap,.edu-b,.cinfo div{background:#fff!important;border-color:#bbb!important}
+  h1.name{font-size:44px}
+  .shead{page-break-after:avoid}
+  .rec-row{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================ loader -->
+<div id="loader">
+  <div class="load-in">
+    <svg class="load-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+      <path d="M5 26 L16 5 L27 26" stroke="#E8871E" stroke-width="2" stroke-linecap="square"/>
+      <path d="M10 19 h12" stroke="#3FB48C" stroke-width="2" stroke-linecap="square"/>
+    </svg>
+    <div class="mono">Abdiaziz Mohamed Abdi</div>
+    <div class="load-bar"><i id="lbar"></i></div>
+    <div class="load-pct mono"><span>Running in</span><span class="num" id="lpct">000</span></div>
+  </div>
+</div>
+
+<div id="cursor" aria-hidden="true"></div>
+<div id="prog" aria-hidden="true"></div>
+
+<!-- ============================================================ nav -->
+<header id="hdr">
+  <div class="wrap nav">
+    <a class="brand" href="#hero" aria-label="Abdiaziz Mohamed Abdi — home">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect x=".6" y=".6" width="30.8" height="30.8" rx="7" stroke="rgba(255,255,255,.16)"/>
+        <path d="M7 24 L16 8 L25 24" stroke="#E8871E" stroke-width="1.9" stroke-linecap="square"/>
+        <path d="M11.4 18.6 h9.2" stroke="#3FB48C" stroke-width="1.9" stroke-linecap="square"/>
+      </svg>
+      <span class="bt"><b>Abdiaziz Abdi</b><span>Portfolio 2026</span></span>
+    </a>
+    <nav class="navlinks" id="navlinks">
+      <a href="#hero" data-sec="hero">Home</a>
+      <a href="#work" data-sec="work">Work</a>
+      <a href="#record" data-sec="record">Record</a>
+      <a href="#credentials" data-sec="credentials">Credentials</a>
+      <a href="#contact" data-sec="contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================================================ hero -->
+<section id="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+
+      <div>
+        <div class="avatar rv">
+          <img src="me.jpg" width="768" height="1376" alt="Abdiaziz Mohamed Abdi"
+               onerror="this.closest('.avatar').classList.add('noimg')">
+          <!-- shown only if me.jpg is missing -->
+          <svg viewBox="0 0 120 120" fill="none" aria-hidden="true">
+            <circle cx="60" cy="44" r="20" stroke="#C9D1D7" stroke-width="2.2"/>
+            <path d="M22 108c0-21 17-34 38-34s38 13 38 34" stroke="#C9D1D7" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M60 24 v-9 M60 88 v14" stroke="#E8871E" stroke-width="1.6" opacity=".65"/>
+          </svg>
+        </div>
+
+        <div class="pill rv" data-d="1"><i></i> Open to work · field rotation</div>
+
+        <h1 class="name rv" data-d="1">
+          <span>Abdiaziz Abdi</span>
+          <span class="l2">Drilling Engineer</span>
+        </h1>
+
+        <p class="hero-sub rv" data-d="2">Well construction, drilling fluids, downhole tool design</p>
+
+        <div class="hero-cta rv" data-d="3">
+          <a class="btn solid" href="#work">
+            See the work
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v12M3 9l5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <button class="btn" id="resumeBtn">
+            Save résumé
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 11v3h12v-3M8 2v9M4.5 7.5 8 11l3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <a class="btn" href="https://www.linkedin.com/in/abdiaziz-petroleum/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="pres">
+        <div class="mono rv">Presentation</div>
+        <p class="rv" data-d="1">
+          Drilling operations engineer based in Dammam, holding an
+          <b>MSc in Petroleum &amp; Natural Gas Engineering (Honors)</b>.
+          I work the full well: <b>mud systems, real-time wellbore parameters, pressure control</b>
+          and the paperwork that keeps a crew handing over cleanly at 3am.
+          My field record comes from one of Africa's most remote drilling
+          environments — a complete campaign, spud to TD, with nothing left on the report.
+        </p>
+
+        <div class="stats rv" data-d="2">
+          <div class="stat">
+            <b class="num" data-count="90" data-suffix="">0</b>
+            <span>Operational days<br>spud to TD</span>
+          </div>
+          <div class="stat">
+            <b class="num" data-count="0" data-suffix="">0</b>
+            <span>Recordable incidents<br>full campaign</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="strip rv" data-d="3">
+    <div class="marq">
+      <span>HSE leadership</span><span>Drilling fluid systems</span><span>Wellbore integrity</span>
+      <span>Casing &amp; cementing</span><span>BOP function testing</span><span>Daily drilling reports</span>
+      <span>Petrel · Landmark</span><span>Downhole tool design</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ work -->
+<section id="work">
+  <div class="wrap">
+    <div class="shead">
+      <div class="idx">01 —</div>
+      <h2 class="rv">Selected work.</h2>
+      <p class="say rv" data-d="1">
+        Three projects, each with its own site: a downhole permeability tool taken from
+        functional decomposition to a built prototype, a bench rig modelled part by part
+        in 3D, and the MSc thesis on reading fracture networks from microseismic signal.
+      </p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="cards">
+      <a class="card rv" href="https://abdiaziz-abd.github.io/Downhole-Sensor/" target="_blank" rel="noopener">
+        <div class="shot">
+          <iframe src="https://abdiaziz-abd.github.io/Downhole-Sensor/" title="Preview of Downhole Sensor" loading="lazy" tabindex="-1" aria-hidden="true" scrolling="no"></iframe>
+        </div>
+        <div class="body">
+          <div class="top">
+            <h3>Downhole Sensor</h3>
+            <span class="host"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6.5 9.5a3 3 0 0 0 4.24 0l2-2a3 3 0 0 0-4.24-4.24l-.7.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9.5 6.5a3 3 0 0 0-4.24 0l-2 2a3 3 0 0 0 4.24 4.24l.7-.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Downhole-Sensor</span>
+          </div>
+          <div class="facts"><span>Case study</span><i></i><span>9 sections</span><i></i><span>2024</span></div>
+          <p>A 12-inch tool that drills the well wall and measures formation permeability in the hole, during the run.</p>
+        </div>
+      </a>
+
+      <a class="card rv" data-d="1" href="https://abdiaziz-abd.github.io/Plunger-Pumps/" target="_blank" rel="noopener">
+        <div class="shot">
+          <iframe src="https://abdiaziz-abd.github.io/Plunger-Pumps/" title="Preview of Plunger Pumps" loading="lazy" tabindex="-1" aria-hidden="true" scrolling="no"></iframe>
+        </div>
+        <div class="body">
+          <div class="top">
+            <h3>Plunger Pumps</h3>
+            <span class="host"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6.5 9.5a3 3 0 0 0 4.24 0l2-2a3 3 0 0 0-4.24-4.24l-.7.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9.5 6.5a3 3 0 0 0-4.24 0l-2 2a3 3 0 0 0 4.24 4.24l.7-.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Plunger-Pumps</span>
+          </div>
+          <div class="facts"><span>Explainer</span><i></i><span>5 sections</span><i></i><span>2025</span></div>
+          <p>Why plungers fire in staggered sequence to hold steady flow — three interactive animations on one crankshaft slider.</p>
+        </div>
+      </a>
+
+      <a class="card rv" data-d="2" href="https://abdiaziz-abd.github.io/hydraulic-fracturing-thesis/" target="_blank" rel="noopener">
+        <div class="shot">
+          <iframe src="https://abdiaziz-abd.github.io/hydraulic-fracturing-thesis/" title="Preview of Hydraulic Fracturing Thesis" loading="lazy" tabindex="-1" aria-hidden="true" scrolling="no"></iframe>
+        </div>
+        <div class="body">
+          <div class="top">
+            <h3>Hydraulic Fracturing Thesis</h3>
+            <span class="host"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6.5 9.5a3 3 0 0 0 4.24 0l2-2a3 3 0 0 0-4.24-4.24l-.7.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9.5 6.5a3 3 0 0 0-4.24 0l-2 2a3 3 0 0 0 4.24 4.24l.7-.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>hydraulic-fracturing-thesis</span>
+          </div>
+          <div class="facts"><span>MSc thesis</span><i></i><span>8 sections</span><i></i><span>2025</span></div>
+          <p>Reading fracture networks from microseismic signal with machine learning, validated on three real fields.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ skills -->
+<section id="skills">
+  <div class="wrap">
+    <div class="shead">
+      <div class="idx">02 &mdash;</div>
+      <h2 class="rv">Skills &amp; tools.</h2>
+      <p class="say rv" data-d="1">The software the work actually gets done in.</p>
+    </div>
+
+    <div class="skills">
+      <div class="skill" style="--i:0">
+        <span class="logo" style="background:#21A366" aria-hidden="true">X</span>
+        <span class="meta">
+          <span class="name">Excel</span>
+          <span class="sub">Data &amp; reporting</span>
+        </span>
+      </div>
+      <div class="skill" style="--i:1">
+        <span class="logo" style="background:#D24726" aria-hidden="true">P</span>
+        <span class="meta">
+          <span class="name">PowerPoint</span>
+          <span class="sub">Presentations</span>
+        </span>
+      </div>
+      <div class="skill" style="--i:2">
+        <span class="logo" style="background:#E51937" aria-hidden="true">A</span>
+        <span class="meta">
+          <span class="name">AutoCAD</span>
+          <span class="sub">Technical drafting</span>
+        </span>
+      </div>
+      <div class="skill" style="--i:3">
+        <span class="logo" style="background:linear-gradient(135deg,#3776AB 50%,#FFD43B 50%)" aria-hidden="true">Py</span>
+        <span class="meta">
+          <span class="name">Python</span>
+          <span class="sub">Data &amp; ML scripting</span>
+        </span>
+      </div>
+      <div class="skill" style="--i:4">
+        <span class="logo" style="background:#F9A03C;color:#171717" aria-hidden="true">D3</span>
+        <span class="meta">
+          <span class="name">D3.js</span>
+          <span class="sub">Data visualization</span>
+        </span>
+      </div>
+      <div class="skill" style="--i:5">
+        <span class="logo" style="background:#141414;border:1px solid var(--line-2)" aria-hidden="true">N</span>
+        <span class="meta">
+          <span class="name">Notion</span>
+          <span class="sub">Documentation</span>
+        </span>
+      </div>
+      <div class="skill" style="--i:6">
+        <span class="logo" style="background:#0F7B6C" aria-hidden="true">P</span>
+        <span class="meta">
+          <span class="name">Petrel</span>
+          <span class="sub">Reservoir modelling</span>
+        </span>
+      </div>
+      <div class="skill" style="--i:7">
+        <span class="logo" style="background:#3A4D8F" aria-hidden="true">W</span>
+        <span class="meta">
+          <span class="name">WellPlan</span>
+          <span class="sub">Drilling engineering</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ record -->
+<section id="record">
+  <div class="wrap">
+    <div class="shead">
+      <div class="idx">03 —</div>
+      <h2 class="rv">Field record.</h2>
+      <p class="say rv" data-d="1">
+        Three assignments across two countries — a full drilling campaign, a geophysical
+        acquisition season, and two community water wells delivered end to end.
+      </p>
+    </div>
+
+    <div class="rec">
+      <article class="rec-row rv">
+        <div class="when">Nov 2022 — Feb 2023</div>
+        <div>
+          <h3>A full spud-to-TD campaign, remote and high-risk</h3>
+          <div class="org">On-Site Well Drilling Projects · Somalia</div>
+          <div class="role">Petroleum Engineering Intern — Drilling Operations</div>
+        </div>
+        <ul>
+          <li>Sustained a <b>100% zero-incident safety record</b> across roughly 90 operational days, enforcing JSAs, toolbox talks and HSE protocols for a 10+ person rig crew every shift.</li>
+          <li>Held <b>6 mud system parameters within ±2%</b> of target spec, preventing 3 formation-damage risk events and supporting on-schedule TD delivery.</li>
+          <li>Monitored <b>6 real-time wellbore parameters</b> per 12-hour shift, catching 2 downhole anomalies early and contributing to measurable NPT reduction.</li>
+          <li>Delivered <b>90+ daily drilling and mud reports</b> with zero data-continuity gaps across 3 crew rotations, cutting shift-start lag by an estimated 15–20 min per rotation.</li>
+          <li>Achieved <b>100% BOP function-test compliance</b> before each critical phase; supported 2 casing string runs and 1 primary cement job with no remedial operations at TD.</li>
+        </ul>
+      </article>
+
+      <article class="rec-row rv">
+        <div class="when">Aug 2022 — Oct 2022</div>
+        <div>
+          <h3>Acquisition and QC for subsurface characterization</h3>
+          <div class="org">Geological Survey Department · Nicosia, Cyprus</div>
+          <div class="role">Geology &amp; Geophysics Intern</div>
+        </div>
+        <ul>
+          <li>Supported geophysical data acquisition across <b>4+ site investigations</b> operating seismic and resistivity equipment, with under 5% equipment-related downtime over the 3-month assignment.</li>
+          <li>Processed and quality-checked geotechnical datasets for <b>4 construction projects</b>, holding data integrity for the formation characterization reports engineering decisions were made on.</li>
+        </ul>
+      </article>
+
+      <article class="rec-row rv">
+        <div class="when">Jan 2023 — Feb 2023</div>
+        <div>
+          <h3>Two wells, spud to commissioning, in six weeks</h3>
+          <div class="org">Community Water Well Construction · Somalia</div>
+          <div class="role">Volunteer Engineer</div>
+        </div>
+        <ul>
+          <li>Delivered <b>2 community water wells</b> from spud to commissioning inside 6 weeks — casing installation, pump testing, wellhead assembly — extending clean-water access to 500+ residents with zero structural failures post-commissioning.</li>
+          <li>Enforced HSE and environmental water-quality monitoring across <b>100% of field activities</b>; soil sampling and contamination checks confirmed potable standards at both sites.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ capabilities -->
+<section id="capabilities">
+  <div class="wrap">
+    <div class="shead">
+      <div class="idx">04 —</div>
+      <h2 class="rv">What I run<br>on a rig.</h2>
+      <p class="say rv" data-d="1">Six areas, each with the number that proves it.</p>
+    </div>
+
+    <div class="caps">
+      <div class="cap rv">
+        <h3>HSE &amp; safety leadership</h3>
+        <p>NEBOSH safety management, offshore survival and emergency response (BOSIET/HUET), H₂S detection and evacuation, JSA, hazard identification, risk mitigation, toolbox talks, fatigue management, pressure control.</p>
+        <span class="tag">Zero incidents · full campaign</span>
+      </div>
+      <div class="cap rv" data-d="1">
+        <h3>Drilling fluid systems</h3>
+        <p>Mud weight, plastic viscosity, gel strength, filtration and fluid-loss control, pH and chlorides — specification, checking and correction on the shift clock.</p>
+        <span class="tag">6 parameters · ±2% spec</span>
+      </div>
+      <div class="cap rv" data-d="2">
+        <h3>Wellbore integrity</h3>
+        <p>Real-time monitoring of WOB, ROP, standpipe pressure, pump rate, torque &amp; drag and ECD, with anomaly identification against expected trend.</p>
+        <span class="tag">6-parameter tracking · per 12-hr shift</span>
+      </div>
+      <div class="cap rv">
+        <h3>Well construction</h3>
+        <p>Casing running procedures, centralizer placement, primary cement job support, and BOP function testing ahead of every critical phase.</p>
+        <span class="tag">100% pre-phase compliance</span>
+      </div>
+      <div class="cap rv" data-d="1">
+        <h3>Drilling documentation</h3>
+        <p>Daily drilling reports, mud reports and shift handover logs written to survive a rotation change without a phone call.</p>
+        <span class="tag">90+ reports · 0 continuity gaps</span>
+      </div>
+      <div class="cap rv" data-d="2">
+        <h3>Software &amp; equipment</h3>
+        <p>Petrel and Landmark (academic) for reservoir modelling, well planning and formation evaluation; OSDU awareness; geophysical field equipment, rig instrumentation, pre-start inspections.</p>
+        <span class="tag">Excel · trend analysis &amp; reporting</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ credentials -->
+<section id="credentials">
+  <div class="wrap">
+    <div class="shead">
+      <div class="idx">05 —</div>
+      <h2 class="rv">Credentials.</h2>
+      <p class="say rv" data-d="1">Tickets, education and language — the paperwork that gets you through the gate.</p>
+    </div>
+
+    <div class="certs">
+      <div class="cert rv">
+        <div class="seal"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2 3 5v5c0 4 3 6.6 7 8 4-1.4 7-4 7-8V5l-7-3Z" stroke="#3FB48C" stroke-width="1.4"/><path d="M7 10l2 2 4-4" stroke="#3FB48C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>OPITO BOSIET with EBS</h3>
+        <p class="iss">Basic Offshore Safety Induction &amp; Emergency Training, including Emergency Breathing System</p>
+        <div class="row"><span class="st live"><i></i>Active</span><span class="val">4 yr validity</span></div>
+      </div>
+
+      <div class="cert rv" data-d="1">
+        <div class="seal"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="7" stroke="#3FB48C" stroke-width="1.4"/><path d="M10 6v5M10 13.6v.4" stroke="#3FB48C" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>OPITO Basic H₂S (9014)</h3>
+        <p class="iss">Hydrogen sulphide detection, breathing apparatus and evacuation procedure</p>
+        <div class="row"><span class="st live"><i></i>Active</span><span class="val">2 yr validity</span></div>
+      </div>
+
+      <div class="cert rv" data-d="2">
+        <div class="seal"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="4" width="14" height="12" rx="2" stroke="#3FB48C" stroke-width="1.4"/><path d="M6.5 8.5h7M6.5 11.5h4" stroke="#3FB48C" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+        <h3>NEBOSH Certification</h3>
+        <p class="iss">Occupational health and safety management</p>
+        <div class="row"><span class="st live"><i></i>Active</span><span class="val">Held</span></div>
+      </div>
+
+      <div class="cert rv">
+        <div class="seal"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14M5 7h10M6.5 12h7" stroke="#E8871E" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+        <h3>IWCF Well Control</h3>
+        <p class="iss">International Well Control Forum — pressure control certification</p>
+        <div class="row"><span class="st soon"><i></i>Expected</span><span class="val">May 2026</span></div>
+      </div>
+    </div>
+
+    <div class="edu">
+      <div class="edu-b rv">
+        <h3>MSc, Petroleum &amp; Natural Gas Engineering</h3>
+        <p class="sc">Cyprus International University · Jun 2025</p>
+        <div class="hon"><span>Honors</span></div>
+      </div>
+      <div class="edu-b rv" data-d="1">
+        <h3>BSc, Petroleum &amp; Natural Gas Engineering</h3>
+        <p class="sc">Cyprus International University · Jun 2022</p>
+        <div class="hon"><span>Faculty of Engineering honor list</span><span>Outstanding academic achievement</span></div>
+      </div>
+      <div class="edu-b rv" data-d="2">
+        <h3 style="margin-bottom:16px">Language</h3>
+        <dl>
+          <dt>Somali</dt><dd>Native</dd>
+          <dt>English</dt><dd>Fluent</dd>
+          <dt>Arabic</dt><dd>Fluent</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ contact -->
+<section id="contact">
+  <div class="wrap">
+    <div class="cta">
+      <div class="mono rv">06 — Contact</div>
+      <h2 class="rv" data-d="1" style="margin-top:26px">Ready for the<br><em>next rotation.</em></h2>
+      <div class="cta-row rv" data-d="2">
+        <a class="btn solid" href="mailto:anwernuur@gmail.com?subject=Drilling%20role%20—%20Abdiaziz%20Abdi">
+          anwernuur@gmail.com
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/abdiaziz-petroleum/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://abdiaziz-abd.github.io/Downhole-Sensor/" target="_blank" rel="noopener">Project site</a>
+      </div>
+
+      <div class="cinfo rv" data-d="3">
+        <div><span class="mono">Based in</span><b>Dammam, Saudi Arabia</b></div>
+        <div><span class="mono">Availability</span><b>Field rotation — open</b></div>
+        <div><span class="mono">Email</span><b><a href="mailto:anwernuur@gmail.com">anwernuur@gmail.com</a></b></div>
+        <div><span class="mono">Languages</span><b>English · Arabic · Somali</b></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot">
+        <span class="mono">© 2026 Abdiaziz Mohamed Abdi</span>
+        <span class="mono">Built by hand · Three.js · no framework</span>
+      </div>
+    </footer>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================ page interactions -->
+<script>
+(function(){
+  const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* loader — lived in the 3D module before that was removed */
+  (function(){
+    const bar = document.getElementById('lbar');
+    const pct = document.getElementById('lpct');
+    const loader = document.getElementById('loader');
+    if (!loader) return;
+    const done = () => {
+      bar.style.transform = 'scaleX(1)';
+      pct.textContent = '100';
+      loader.classList.add('done');
+    };
+    if (REDUCED) { done(); return; }
+    let v = 0;
+    const t = setInterval(() => {
+      v = Math.min(100, v + Math.random() * 17 + 6);
+      bar.style.transform = 'scaleX(' + (v / 100) + ')';
+      pct.textContent = String(Math.round(v)).padStart(3, '0');
+      if (v >= 100) { clearInterval(t); setTimeout(() => loader.classList.add('done'), 260); }
+    }, 110);
+    /* never strand the page behind the loader */
+    setTimeout(() => { clearInterval(t); done(); }, 4000);
+  })();
+
+  /* reveal */
+  const io = new IntersectionObserver((es) => {
+    es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { rootMargin: '0px 0px -12% 0px', threshold: .12 });
+  document.querySelectorAll('.rv').forEach(el => io.observe(el));
+
+  /* skills grid: one observer starts the whole stagger, each card runs on its own delay */
+  const grid = document.querySelector('.skills');
+  if (grid) {
+    const gio = new IntersectionObserver((es) => {
+      es.forEach(e => {
+        if (!e.isIntersecting) return;
+        e.target.classList.add('go');
+        gio.unobserve(e.target);
+      });
+    }, { threshold: .18 });
+    gio.observe(grid);
+  }
+
+  /* counters */
+  const cio = new IntersectionObserver((es) => {
+    es.forEach(e => {
+      if (!e.isIntersecting) return;
+      cio.unobserve(e.target);
+      const el = e.target, to = +el.dataset.count;
+      if (REDUCED || to === 0){ el.textContent = to; return; }
+      const t0 = performance.now(), dur = 1200;
+      (function step(t){
+        const k = Math.min(1, (t - t0) / dur);
+        el.textContent = Math.round(to * (1 - Math.pow(1 - k, 3)));
+        if (k < 1) requestAnimationFrame(step);
+      })(t0);
+    });
+  }, { threshold: .6 });
+  document.querySelectorAll('[data-count]').forEach(el => cio.observe(el));
+
+  /* scroll progress + sticky header */
+  const prog = document.getElementById('prog'), hdr = document.getElementById('hdr');
+  function onScroll(){
+    const h = document.documentElement;
+    const p = h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight);
+    prog.style.transform = 'scaleX(' + p + ')';
+    hdr.classList.toggle('stuck', h.scrollTop > 40);
+  }
+  addEventListener('scroll', onScroll, { passive:true });
+  onScroll();
+
+  /* nav active section */
+  const links = [...document.querySelectorAll('#navlinks a')];
+  const secs = links.map(a => document.getElementById(a.dataset.sec)).filter(Boolean);
+  const nio = new IntersectionObserver((es) => {
+    es.forEach(e => {
+      if (!e.isIntersecting) return;
+      links.forEach(a => a.classList.toggle('on', a.dataset.sec === e.target.id));
+    });
+  }, { rootMargin: '-45% 0px -50% 0px' });
+  secs.forEach(s => nio.observe(s));
+
+  /* cursor */
+  const cur = document.getElementById('cursor');
+  if (matchMedia('(hover:hover)').matches){
+    let x = innerWidth/2, y = innerHeight/2, tx = x, ty = y;
+    addEventListener('pointermove', e => { tx = e.clientX; ty = e.clientY; }, { passive:true });
+    (function loop(){
+      x += (tx - x) * .22; y += (ty - y) * .22;
+      cur.style.transform = 'translate(' + x + 'px,' + y + 'px) translate(-50%,-50%)';
+      requestAnimationFrame(loop);
+    })();
+    document.querySelectorAll('a,button,.card,.cert').forEach(el => {
+      el.addEventListener('pointerenter', () => cur.classList.add('hot'));
+      el.addEventListener('pointerleave', () => cur.classList.remove('hot'));
+    });
+  }
+
+  /* card spotlight */
+  document.querySelectorAll('.card').forEach(c => {
+    c.addEventListener('pointermove', e => {
+      const r = c.getBoundingClientRect();
+      c.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+      c.style.setProperty('--my', (e.clientY - r.top) + 'px');
+    });
+  });
+
+  /* résumé — print stylesheet renders the page as a clean CV */
+  document.getElementById('resumeBtn').addEventListener('click', () => window.print());
+})();
+</script>
+
+</body>
+</html>
