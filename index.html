@@ -591,20 +591,19 @@ footer{margin-top:clamp(56px,7vw,96px);border-top:1px solid var(--line);padding:
       <div class="pres">
         <div class="mono rv">Presentation</div>
         <p class="rv" data-d="1">
-          Petroleum engineer <b>(MSc, Honours)</b> based in Doha.
-          <b>IWCF well control, OPITO BOSIET with EBS, H₂S and NEBOSH certified</b>,
-          seeking a wellsite or trainee drilling engineer seat on rotation.
-          Field record: a complete borehole campaign at a remote, camp-based site in Somalia,
-          covering <b>set-out and verticality control, casing and screen installation</b> with
-          no alignment defects, and yield verified at <b>22 litres/second</b> against a 16-hour
-          pump window. MSc research on hydraulic-fracturing optimisation through microseismic
-          monitoring, with Petrel and cementing work. Transferable Qatar ID, no sponsorship
-          required, available immediately and open to 28/28 rotation.
+          Petroleum engineer <b>(MSc, Honours)</b> based in Doha, specialising in
+          <b>drilling operations, wellsite coordination and well control</b>.
+          Field record: a live <b>90-day spud-to-TD campaign</b> in Somalia with a
+          zero-incident safety record, mud system parameters held within &plusmn;2% of spec,
+          and 90+ daily drilling reports delivered with zero data-continuity gaps across
+          3 crew rotations. IWCF well control, NEBOSH, OPITO BOSIET with EBS and H&#8322;S
+          certified. Transferable Qatar ID, no sponsorship required, available immediately
+          for field engineering and drilling roles across Saudi Arabia, Qatar and MENA.
         </p>
 
         <div class="stats rv" data-d="2">
           <div class="stat">
-            <b class="num" data-count="90" data-suffix="">0</b>
+            <b class="num" data-count="90" data-suffix="">90</b>
             <span>Operational days<br>spud to TD</span>
           </div>
           <div class="stat">
@@ -612,14 +611,13 @@ footer{margin-top:clamp(56px,7vw,96px);border-top:1px solid var(--line);padding:
             <span>Recordable incidents<br>full campaign</span>
           </div>
           <div class="stat">
-            <b class="num" data-count="22" data-suffix="">0</b>
-            <span>Litres/second<br>verified yield</span>
+            <b class="num" data-count="90" data-suffix="+">90+</b>
+            <span>Daily drilling reports<br>zero data gaps</span>
           </div>
           <div class="stat">
-            <b class="num" data-count="1900" data-suffix="+">0</b>
-            <span>People supplied<br>water online</span>
+            <b class="num" data-count="2" data-prefix="&plusmn;" data-suffix="%">&plusmn;2%</b>
+            <span>Mud parameters<br>held to spec</span>
           </div>
-        </div>
       </div>
 
     </div>
@@ -1015,8 +1013,8 @@ footer{margin-top:clamp(56px,7vw,96px);border-top:1px solid var(--line);padding:
     es.forEach(e => {
       if (!e.isIntersecting) return;
       cio.unobserve(e.target);
-      const el = e.target, to = +el.dataset.count, sfx = el.dataset.suffix || '';
-      const fmt = n => n.toLocaleString('en-US') + sfx;
+      const el = e.target, to = +el.dataset.count, sfx = el.dataset.suffix || '', pfx = el.dataset.prefix || '';
+      const fmt = n => pfx + n.toLocaleString('en-US') + sfx;
       if (REDUCED || to === 0){ el.textContent = fmt(to); return; }
       const t0 = performance.now(), dur = 1200;
       (function step(t){
